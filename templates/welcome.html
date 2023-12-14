@@ -20,8 +20,14 @@
         </div>
     </div>
     <div style="width: 200px; margin: auto;">
-        <button id="myButton" class="primary" style="font-size: 20px;"  onclick="window.location.href='http://127.0.0.1:5000/words'">Click me</button>
+        <button id="myButton" class="primary" style="font-size: 20px;"  onclick="redirectToWord()">Click me</button>
     </div>
 
 </body>
+<script>
+function redirectToWord() {
+  window.location.href = 'https://liushuaitongwork.azurewebsites.net/words';
+}
+</script>
 </html>
+
